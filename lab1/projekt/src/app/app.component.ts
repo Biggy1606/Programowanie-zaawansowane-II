@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router'; // Import Router
 
 @Component({
@@ -8,7 +8,7 @@ import { Router, RouterOutlet } from '@angular/router'; // Import Router
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'projekt';
 
   constructor(private router: Router) {} // Inject Router
