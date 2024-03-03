@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import {
   FormBuilder,
@@ -11,10 +12,12 @@ import {
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, CommonModule],
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent implements OnInit{
   loginForm!: FormGroup;
+  loginError = false;
+  loginSuccess = false;
 
   constructor(private formBuilder: FormBuilder) {}
 
@@ -31,16 +34,22 @@ export class LoginComponent implements OnInit {
       // Add your login logic here
       if (
         this.loginForm.value.username === 'admin' &&
-        this.loginForm.value.password === 'admin'
+        this.loginForm.value.password === 'password'
       ) {
         console.log('Login successful');
+        this.loginSuccess = true;
+        this.loginError = false;
       } else {
         console.log('Invalid credentials');
+        this.loginError = true;
+        this.loginSuccess = false;
       }
     }
   }
 
   onReset(): void {
     this.loginForm.reset();
+    this.loginError = false;
+    this.loginSuccess = false;
   }
 }
