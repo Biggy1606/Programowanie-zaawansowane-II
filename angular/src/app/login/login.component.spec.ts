@@ -65,6 +65,7 @@ describe('LoginComponent', () => {
     });
     component.onSubmit();
     fixture.detectChanges(); // Ensure the DOM is updated
+    expect(component.loginSuccess).toBe(true); // Add this line
     const successMessage = fixture.debugElement.query(By.css('.success'));
     expect(successMessage).toBeTruthy();
     expect(successMessage.nativeElement.textContent).toContain(

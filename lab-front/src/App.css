@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.card {
+  border: #747bff 1px solid;
+  border-radius: 8px;
+  padding: 2em;
+}
+.form-group {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+.footer {
+  bottom: 4px;
+  left: 50%;
+  width: 100%;
+  color: #888;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: fit-content;
+  margin: 32px auto;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.menu-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  border-color: #747bff;
+  color: #f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+.menu-button:hover {
+  background-color: #f0f0f0;
+  color: #747bff;
+}
+.input-group {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.input-group label {
+  font-weight: bold;
+}
+
+.input-group input,
+.input-group select {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.input-group button {
+  padding: 0.5em 1em;
+  background-color: #747bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.history-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
