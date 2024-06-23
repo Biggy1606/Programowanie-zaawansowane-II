@@ -61,7 +61,7 @@ describe('LoginComponent', () => {
   it('should display success message when login is successful', () => {
     component.loginForm.setValue({
       username: 'admin',
-      password: 'password',
+      password: 'admin',
     });
     component.onSubmit();
     fixture.detectChanges(); // Ensure the DOM is updated

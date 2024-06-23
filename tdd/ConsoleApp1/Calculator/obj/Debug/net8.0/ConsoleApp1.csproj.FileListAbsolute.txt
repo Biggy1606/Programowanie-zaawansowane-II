@@ -1,0 +1,15 @@
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.deps.json
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.dll
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.pdb
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfoInputs.cache
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfo.cs
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.sourcelink.json
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.dll
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/refint/ConsoleApp1.dll
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.pdb
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.genruntimeconfig.cache
+/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ref/ConsoleApp1.dll

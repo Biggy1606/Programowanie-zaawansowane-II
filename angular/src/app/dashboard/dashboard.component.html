@@ -1,1 +1,5 @@
-<p>dashboard works!</p>
+<!-- dashboard.component.html -->
+<div *ngIf="authService.isLoggedIn">
+  <app-menu></app-menu>
+  <p>dashboard content</p>
+</div>

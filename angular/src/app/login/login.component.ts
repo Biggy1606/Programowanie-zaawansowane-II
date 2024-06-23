@@ -43,7 +43,9 @@ export class LoginComponent implements OnInit {
         console.log('Login successful');
         this.loginSuccess = true;
         this.loginError = false;
-        this.router.navigate(['/dashboard']);
+        // setTimeout(() => {
+          this.router.navigate(['/dashboard']);
+        // }, 1000);
       } else {
         console.log('Invalid credentials');
         this.loginError = true;

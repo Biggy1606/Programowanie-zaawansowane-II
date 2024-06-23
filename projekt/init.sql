@@ -1,0 +1,8 @@
+-- init.sql
+CREATE TABLE nbp_currencies (
+    id SERIAL PRIMARY KEY,
+    code VARCHAR(3) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    value FLOAT NOT NULL,
+    updateDate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

@@ -1,5 +1,32 @@
-<nav>
-  <ul>
-    <li><a routerLink="/dashboard">Dashboard</a></li>
+<nav style="border-bottom: 1px solid black">
+  <h1>Menu</h1>
+  <ul style="list-style-type: none; display: flex">
+    <li style="margin-right: 10px">
+      <a
+        routerLink="/dashboard"
+        style="
+          text-decoration: none;
+          background-color: #f0f0f0;
+          padding: 5px 10px;
+          border-radius: 5px;
+          cursor: pointer;
+        "
+        >Dashboard</a
+      >
+    </li>
+    <li>
+      <a
+        (click)="logout()"
+        style="
+          text-decoration: none;
+          background-color: #f0f0f0;
+          padding: 5px 10px;
+          border-radius: 5px;
+          cursor: pointer;
+        "
+        >Logout</a
+      >
+    </li>
   </ul>
 </nav>
+

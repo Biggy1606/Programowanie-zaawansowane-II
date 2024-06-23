@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6192701c_002D4613_002D49ca_002Da28b_002D891b32120c8e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Add_ShouldSendDataToWebService" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::32708788-EE67-40E5-BC8A-742210056ED4::net8.0::CalculatorTests.CalculatorTests.Add_ShouldSendDataToWebService&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::32708788-EE67-40E5-BC8A-742210056ED4::net8.0::CalculatorTests.OrderProcessorTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

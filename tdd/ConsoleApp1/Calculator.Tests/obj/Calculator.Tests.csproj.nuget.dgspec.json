@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator.Tests/Calculator.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator.Tests/Calculator.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator.Tests/Calculator.Tests.csproj",
+        "projectName": "Calculator.Tests",
+        "projectPath": "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator.Tests/Calculator.Tests.csproj",
+        "packagesPath": "/home/biggy/.nuget/packages/",
+        "outputPath": "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/biggy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator/Calculator.csproj": {
+                "projectPath": "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator/Calculator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/biggy/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator/Calculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator/Calculator.csproj",
+        "projectName": "Calculator",
+        "projectPath": "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator/Calculator.csproj",
+        "packagesPath": "/home/biggy/.nuget/packages/",
+        "outputPath": "/home/biggy/Documents/WSB/Sem6/Programowanie zaawansowane II/tdd/ConsoleApp1/Calculator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/biggy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/biggy/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
